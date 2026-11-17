@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.danielrivera.conectalessgp.MainActivity">
+<!--    <item-->
+<!--        android:id="@+id/actualizarApp"-->
+<!--        android:enabled="true"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Actualizar App"-->
+<!--        app:showAsAction="collapseActionView" />-->
+    <!--<item-->
+        <!--android:id="@+id/activar"-->
+        <!--android:enabled="false"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Activar"-->
+        <!--app:showAsAction="collapseActionView" />-->
+<!--    <item-->
+<!--        android:id="@+id/desactivar"-->
+<!--        android:enabled="true"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Desactivar"-->
+<!--        app:showAsAction="collapseActionView" />-->
+    <item
+        android:id="@+id/nivelBateria"
+        android:orderInCategory="100"
+        android:title="% Bateria"
+        android:icon="@drawable/batery100"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/reconectarWifi"
+        android:orderInCategory="100"
+        android:title="Conectar a Wifi"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/redWifi"
+        android:checkable="false"
+        android:enabled="false"
+        android:orderInCategory="100"
+        android:icon="@drawable/wifi"
+        android:title="- Sin Red -"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/recargarWebview"
+        android:orderInCategory="100"
+        android:title="Recargar"
+        android:icon="@drawable/refresh"
+        app:showAsAction="ifRoom|withText" />
+</menu>

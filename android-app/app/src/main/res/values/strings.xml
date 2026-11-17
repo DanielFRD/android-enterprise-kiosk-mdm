@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Enterprise Kiosk MDM</string>
+    <string name="device_admin_description">Device Owner &amp; Kiosk Lockdown Administrator</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_reload">Recargar Pantalla</string>
+    <string name="action_reconnect_wifi">Reconectar Wi-Fi</string>
+</resources>
